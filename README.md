@@ -1,7 +1,60 @@
-<<<<<<< HEAD
-# PruebaHypertexto
-Prueba de notas y endpoint
-=======
+# Prueba hipertexto
+
+En esta prueba se creo un crud con laravel y vue para un sistema de notas, tambien se hizo un endpoint
+
+
+## Requisitos
+
+- [PHP](https://www.php.net/) >= 8.1
+- [Laravel](https://laravel.com/) >= 10.x
+- [Node.js](https://nodejs.org/) >= 20.x
+- [Composer](https://getcomposer.org/)
+- [npm](https://www.npmjs.com/)
+
+## Instalación
+
+Sigue estos pasos para instalar y configurar el proyecto en tu máquina local.
+
+1. **Clona el Repositorio**
+
+   ```bash
+   git clone https://github.com/rengifoym/PruebaHypertexto
+   cd PruebaHypertexto
+
+2. **Instala las Dependencias de PHP**  
+    composer install
+
+3. **Instala las Dependencias de JavaScript**  
+    npm install
+
+4. **Crear base de datos**
+    Vas la bd mysql y corres el siguiente comando con el nombre que le quieras poner a la bd 
+    CREATE DATABASE nombre_de_base_de_datos;
+
+
+5. **Configura el Archivo .env**
+    en este punto vas al archivo .env y llenas estos datos para la conexion con la bd
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=nombre_de_base_de_datos
+    DB_USERNAME=tu_usuario
+    DB_PASSWORD=tu_contraseña
+
+6. **Genera la Clave de Aplicación**
+    php artisan key:generate
+
+7. **Migraciones y Datos Iniciales**
+    php artisan migrate
+
+8. **Inicia el Servidor de Desarrollo**
+    php artisan serve
+    npm run dev
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -68,4 +121,3 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
->>>>>>> 7cb7708 (primer commit)
