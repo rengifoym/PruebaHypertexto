@@ -51,6 +51,8 @@ Sigue estos pasos para instalar y configurar el proyecto en tu máquina local.
     php artisan serve
     npm run dev
 
+EL PUNTO 2 QUE ES EL DEL ENDPOINT LO VERIFICAMOS EN LA RUTA http://localhost:8000/apiendpoint 
+
 
 
 
